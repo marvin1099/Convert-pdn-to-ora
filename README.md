@@ -62,7 +62,7 @@ Visit [the releases section](https://codeberg.org/marvin1099/Convert-pdn-to-ora/
 
 ## Linux Compatibility
 
-If you want to run this script on Linux,
-you will need to use a Windows 11 virtual machine or a Windows installation,
-as Paint.NET does not work under Wine. 
+If you want to run this script on Linux,  
+you will need to use a Windows 11 virtual machine or a Windows installation,  
+as Paint.NET does not work under Wine.  
 The `.pdn` format has not been reverse-engineered for native Linux support.
