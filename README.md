@@ -21,9 +21,10 @@ To run this script, you will need the following:
   Download the OpenRaster plugin from [Paint.NET OpenRaster Filetype](https://forums.getpaint.net/topic/20984-openraster-filetype/) and place it in the Paint.NET filetypes folder.
 
 - **Python 3.8+**  
-  Python will be needed to run the new script instead of AutoHotkey. Install Python from [python.org](https://www.python.org/downloads/).
+  Python will be needed to run the script.   
+  Install Python from [python.org](https://www.python.org/downloads/).
 
-- **Required Python Packages**  
+- **Required Python Packages (only needed for the .py  not .exe)**  
   Install the following packages via pip:
   ```
   pip install pyautogui pygetwindow psutil
@@ -39,13 +40,16 @@ Visit [the releases section](https://codeberg.org/marvin1099/Convert-pdn-to-ora/
    Close all unnecessary windows to avoid interference with the automation process.
 
 2. **Place and Run the Script**  
-   Place the script file in the folder containing the `.pdn` files you want to convert. The script will process all `.pdn` files in the folder and subfolders.
+   Place the script file in the folder containing the `.pdn` files you want to convert.  
+   The script will process all `.pdn` files in the folder and subfolders.
 
 3. **Recreate ORA Files Option**  
-   When running the script, it will prompt you whether to recreate `.ora` files, even if they already exist. Select "Yes" to overwrite or "No" to skip existing `.ora` files.
+   When running the script, it will prompt you whether to recreate `.ora` files, even if they already exist.  
+   Select "Yes" to overwrite or "No" to skip existing `.ora` files.
 
 4. **Delete PDN Files Option**  
-   After conversion, you will also be prompted to choose whether to delete the `.pdn` files. The script defaults to "Yes" if you close the dialog.
+   After conversion, you will also be prompted to choose whether to delete the `.pdn` files.  
+   The script defaults to "Yes" if you close the dialog.
 
 5. **Conversion Process**  
    The script will:
