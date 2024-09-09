@@ -20,7 +20,7 @@ To run this script, you will need the following:
 - **Paint.NET OpenRaster Export Plugin**  
   Download the OpenRaster plugin from [Paint.NET OpenRaster Filetype](https://forums.getpaint.net/topic/20984-openraster-filetype/) and place it in the Paint.NET filetypes folder.
 
-- **Python 3.8+**  
+- **Python 3.8+ (only needed for the .py  not .exe)**  
   Python will be needed to run the script.   
   Install Python from [python.org](https://www.python.org/downloads/).
 
