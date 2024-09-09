@@ -8,7 +8,7 @@ and its subfolders to `.ora` (OpenRaster) format, which can be opened in applica
 
 To run this script, you will need the following:
 
-- **Windows 11** (can be a virtual machine)  
+- **Windows 11 (can be a virtual machine)**  
   Paint.NET does not function on Windows 10
 
 - **Paint.NET**  
