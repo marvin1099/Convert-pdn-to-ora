@@ -27,7 +27,7 @@ To run this script, you will need the following:
 - **Required Python Packages (only needed for the .py  not .exe)**  
   Install the following packages via pip:
   ```
-  pip install pyautogui pygetwindow psutil
+  pip install pyautogui pygetwindow
   ```
 
 ## Download
