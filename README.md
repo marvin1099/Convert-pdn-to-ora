@@ -12,7 +12,7 @@ To run this script, you will need the following:
   Paint.NET does not function on Windows 10
 
 - **Paint.NET**  
-  You can install Paint.NET via `winget` or download it from [dotpdn downloads](https://www.dotpdn.com/downloads/pdn.html):
+  You can install Paint.NET via `winget` or download it from [Paint.NET downloads](https://www.dotpdn.com/downloads/pdn.html):
   ```
   winget install dotPDN.PaintDotNet
   ```
@@ -48,8 +48,8 @@ Visit [the releases section](https://codeberg.org/marvin1099/Convert-pdn-to-ora/
    Select "Yes" to overwrite or "No" to skip existing `.ora` files.
 
 4. **Delete PDN Files Option**  
-   After conversion, you will also be prompted to choose whether to delete the `.pdn` files.  
-   The script defaults to "Yes" if you close the dialog.
+   You will also be prompted to choose whether to delete the `.pdn` files. 
+   Select "Yes" to delete or "No" to keep `.pdn` files. 
 
 5. **Conversion Process**  
    The script will:
