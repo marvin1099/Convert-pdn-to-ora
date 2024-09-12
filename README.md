@@ -1,5 +1,27 @@
 # Convert-pdn-to-ora
 
+> **Archived** — This project has been superseded by [pdn2ora](https://codeberg.org/marvin1099/pdn2ora), a cross-platform CLI tool that is faster, works natively on Linux and Windows, and does not rely on Paint.NET or any GUI automation.
+
+**Why switch?**
+
+- No Paint.NET or Windows installation required
+- No GUI interaction — runs as a standalone CLI tool
+- Cross-platform: Linux and Windows
+- Batch conversion with recursive directory support
+- Direct PDN format parsing — no plugins needed
+- Significantly faster than the old approach
+
+**Get pdn2ora:** https://codeberg.org/marvin1099/pdn2ora
+
+Pre-built binaries are available on the [releases](https://codeberg.org/marvin1099/pdn2ora/releases) page.
+
+**Mirrors:** [GitHub](https://github.com/marvin1099/Convert-pdn-to-ora)
+
+---
+
+<details>
+<summary>Old README (reference)</summary>
+
 This script uses Paint.NET, the OpenRaster export plugin for Paint.NET,  
 and Python to automatically convert `.pdn` (Paint.NET) layer files in a folder  
 and its subfolders to `.ora` (OpenRaster) format, which can be opened in applications like Krita.
@@ -76,3 +98,5 @@ If you want to run this script on Linux,
 you will need to use a Windows 11 virtual machine or a Windows installation,  
 as Paint.NET does not work under Wine.  
 The `.pdn` format has not been reverse-engineered for native Linux support.
+
+</details>
